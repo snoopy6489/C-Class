@@ -1,0 +1,3 @@
+﻿  Source.c
+C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\c to f\c to f\Source.c(6,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  c to f.vcxproj -> C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\c to f\Debug\c to f.exe

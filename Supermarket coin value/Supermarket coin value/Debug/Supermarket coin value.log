@@ -1,0 +1,6 @@
+﻿  Source.c
+C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Supermarket coin value\Supermarket coin value\Source.c(15,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Supermarket coin value\Supermarket coin value\Source.c(16,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Supermarket coin value\Supermarket coin value\Source.c(17,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Supermarket coin value\Supermarket coin value\Source.c(18,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Supermarket coin value.vcxproj -> C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Supermarket coin value\Debug\Supermarket coin value.exe

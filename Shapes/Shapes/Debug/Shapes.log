@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Shapes\Shapes\Source.c(116,9): warning C4101: 'numVertices': unreferenced local variable
+C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Shapes\Shapes\Source.c(115,11): warning C4101: 'vertices': unreferenced local variable
+  Shapes.vcxproj -> C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Shapes\Debug\Shapes.exe
