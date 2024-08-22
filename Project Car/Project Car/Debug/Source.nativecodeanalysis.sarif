@@ -1,0 +1,1222 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 5,
+                  "endLine": 46,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "add_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 5,
+                  "endLine": 48,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "add_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 5,
+                  "endLine": 50,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "add_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 5,
+                  "endLine": 52,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "add_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 5,
+                  "endLine": 62,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "delete_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'plate_to_delete' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 13,
+                  "endLine": 64,
+                  "endColumn": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "delete_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'plate_to_delete'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'plate_to_delete' is an Output from 'scanf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1276)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<vehicle_count')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 67
+                          }
+                        },
+                        "message": {
+                          "text": "'plate_to_delete' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 67
+                          }
+                        },
+                        "message": {
+                          "text": "'plate_to_delete' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 5,
+                  "endLine": 89,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "search_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 9,
+                  "endLine": 93,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "search_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 9,
+                  "endLine": 97,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "search_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 9,
+                  "endLine": 101,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "search_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'search' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "search_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'search'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'search' is an Output from 'scanf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1276)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<vehicle_count')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 72
+                          }
+                        },
+                        "message": {
+                          "text": "'search' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 72
+                          }
+                        },
+                        "message": {
+                          "text": "'search' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 5,
+                  "endLine": 128,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "rent_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'plate_rent' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 13,
+                  "endLine": 130,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "rent_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'plate_rent'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'plate_rent' is an Output from 'scanf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1276)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<vehicle_count')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 62
+                          }
+                        },
+                        "message": {
+                          "text": "'plate_rent' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 62
+                          }
+                        },
+                        "message": {
+                          "text": "'plate_rent' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 151,
+                  "startColumn": 5,
+                  "endLine": 151,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "return_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'plate_return' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 13,
+                  "endLine": 153,
+                  "endColumn": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "return_vehicle",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 148,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'plate_return'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 149,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 150,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 151,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'plate_return' is an Output from 'scanf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1276)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 152,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 152,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<vehicle_count')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 153,
+                            "startColumn": 64
+                          }
+                        },
+                        "message": {
+                          "text": "'plate_return' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                          },
+                          "region": {
+                            "startLine": 153,
+                            "startColumn": 64
+                          }
+                        },
+                        "message": {
+                          "text": "'plate_return' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+                },
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 9,
+                  "endLine": 266,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30154.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0037D1C0 -il C:\\Users\\CHRIST~1\\AppData\\Local\\Temp\\_CL_da5387d1ast -typedil -f Source.c -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930154 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -FoDebug\\Source.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\Christian Brown\\OneDrive - Indiana Institute of Technology\\School\\Semester 2\\ECE 1100\\Projects\\Project Car\\Project Car -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Christian Brown/OneDrive - Indiana Institute of Technology/School/Semester 2/ECE 1100/Projects/Project Car/Project Car/Source.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "533661860a9f4b504062c03ae7eafc6a"
+          }
+        }
+      ]
+    }
+  ]
+}

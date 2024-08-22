@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>add_vehicle</FUNCTION>
+    <DECORATED>add_vehicle</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>add_vehicle</FUNCTION>
+    <DECORATED>add_vehicle</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>add_vehicle</FUNCTION>
+    <DECORATED>add_vehicle</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>add_vehicle</FUNCTION>
+    <DECORATED>add_vehicle</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>delete_vehicle</FUNCTION>
+    <DECORATED>delete_vehicle</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>66</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>String 'plate_to_delete' might not be zero-terminated.</DESCRIPTION>
+    <FUNCTION>delete_vehicle</FUNCTION>
+    <DECORATED>delete_vehicle</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>This expression may not zero-terminate 'plate_to_delete'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'plate_to_delete' is an Output from 'scanf' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h:1276)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;vehicle_count')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>66</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'plate_to_delete' is an Input to 'strcmp' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:100)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>66</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'plate_to_delete' is required to be zero-terminated by a SAL annotation on 'strcmp'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>search_vehicle</FUNCTION>
+    <DECORATED>search_vehicle</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>search_vehicle</FUNCTION>
+    <DECORATED>search_vehicle</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>search_vehicle</FUNCTION>
+    <DECORATED>search_vehicle</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>101</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>search_vehicle</FUNCTION>
+    <DECORATED>search_vehicle</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>71</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>String 'search' might not be zero-terminated.</DESCRIPTION>
+    <FUNCTION>search_vehicle</FUNCTION>
+    <DECORATED>search_vehicle</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>83</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>This expression may not zero-terminate 'search'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'choice' ) resolves to case 1: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>91</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'search' is an Output from 'scanf' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h:1276)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;vehicle_count')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>71</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'search' is an Input to 'strcmp' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:100)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>71</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'search' is required to be zero-terminated by a SAL annotation on 'strcmp'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>128</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>rent_vehicle</FUNCTION>
+    <DECORATED>rent_vehicle</DECORATED>
+    <FUNCLINE>124</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>130</LINE>
+      <COLUMN>61</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>String 'plate_rent' might not be zero-terminated.</DESCRIPTION>
+    <FUNCTION>rent_vehicle</FUNCTION>
+    <DECORATED>rent_vehicle</DECORATED>
+    <FUNCLINE>124</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>This expression may not zero-terminate 'plate_rent'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'plate_rent' is an Output from 'scanf' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h:1276)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;vehicle_count')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>61</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'plate_rent' is an Input to 'strcmp' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:100)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>61</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'plate_rent' is required to be zero-terminated by a SAL annotation on 'strcmp'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>151</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>return_vehicle</FUNCTION>
+    <DECORATED>return_vehicle</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>153</LINE>
+      <COLUMN>63</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>String 'plate_return' might not be zero-terminated.</DESCRIPTION>
+    <FUNCTION>return_vehicle</FUNCTION>
+    <DECORATED>return_vehicle</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>This expression may not zero-terminate 'plate_return'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>150</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'plate_return' is an Output from 'scanf' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h:1276)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>152</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>152</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;vehicle_count')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>63</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'plate_return' is an Input to 'strcmp' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:100)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+        <FILENAME>Source.c</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>63</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'plate_return' is required to be zero-terminated by a SAL annotation on 'strcmp'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Christian Brown\OneDrive - Indiana Institute of Technology\School\Semester 2\ECE 1100\Projects\Project Car\Project Car\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>266</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>262</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
