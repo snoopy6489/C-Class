@@ -1,6 +1,4 @@
 Merecedes-Benz,E-Class,ASD901,2024,1
-Honda,Civic,TWU360,2022,1
-Honda,CRV,BAN349,2018,1
 BMW,M4,KEK902,2024,1
 Porsche,911-Dakar,SAW911,2023,1
 Porsche,Taycan,PSW876,2022,1
